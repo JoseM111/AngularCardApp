@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: url(../assets/images/smoke-in-color.jpg)
+  no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-repeat: round;*/
+}

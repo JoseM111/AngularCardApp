@@ -1,7 +1,15 @@
+:host {
+  padding: 30px 4px 10px 4px;
+}
+
 .card {
   width: 350px;
   font-family: Exo2-Light, serif;
   font-size: 18px;
+
+  border-radius: 7px;
+  border: 1px solid cornflowerblue;
+  box-shadow: 2px 3px dimgrey;
 }
 
 p.font-username {
