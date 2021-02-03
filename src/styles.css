@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import '../node_modules/bulma/css/bulma.css';
 
+@font-face {
+  font-family: Exo2-Light;
+  src: url(./assets/fonts/Exo2-Light.ttf)
+}
 /*app-root {*/
 /*  background-image: url(./assets/images/enjoy-the-ride2.jpg)*/
 
