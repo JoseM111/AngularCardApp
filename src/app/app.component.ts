@@ -31,6 +31,15 @@ export class AppComponent {
       content: 'Great biking trails & roads'
     },
     //___________
+    {
+      title: 'Cruising',
+      imageUrl: './assets/images/enjoy-the-ride2.jpg',
+      username: 'goodlife11',
+      content: 'Need for speed & adventure'
+    },
+    //___________
+
+
   ]
   /**| #™━━━━━━━━━━━━━━━━━━━━━|*/
 }
