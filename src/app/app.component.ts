@@ -8,7 +8,7 @@ import { Component } from '@angular/core'
 export class AppComponent {
   //: - ©MEMBER-PROPERTIES|
   /**| #™━━━━━━━━━━━━━━━━━━━━━|*/
-  post = [
+  posts = [
     //___________
     {
       title: 'Neat Tree',

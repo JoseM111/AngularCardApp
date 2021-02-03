@@ -16,7 +16,12 @@ p.font-username {
   text-shadow: 0 1px grey;
 }
 
+.content {
+  font-size: 16px;
+  font-weight: 550;
+}
+
 .title {
-  color: darkgreen;
-  text-shadow: 0 1px black;
+  color: black;
+  text-shadow: 1px 2px lightslategrey;
 }
