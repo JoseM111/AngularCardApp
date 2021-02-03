@@ -1,0 +1,22 @@
+.card {
+  width: 350px;
+  font-family: Exo2-Light, serif;
+  font-size: 18px;
+}
+
+p.font-username {
+  font-weight: 530;
+  color: -moz-mac-accentlightshadow;
+  text-shadow: 0 1px black;
+}
+
+.card-content {
+  background-color: cornflowerblue;
+  color: white;
+  text-shadow: 0 1px grey;
+}
+
+.title {
+  color: darkgreen;
+  text-shadow: 0 1px black;
+}
