@@ -1,33 +1,43 @@
-<!--━━| NEAT TREE CARD |━━-->
 <CardComponent
-   [title]="post[0].title"
-   [imageUrl]="post[0].imageUrl"
-   [username]="post[0].username"
-   [content]="post[0].content"
+  *ngFor="let post of posts"
+  [title]="post.title"
+  [imageUrl]="post.imageUrl"
+  [username]="post.username"
+  [content]="post.content"
 >
 </CardComponent>
-<!-- ------------- -->
-<!--<hr >-->
 
-<!--━━| SNOWY MOUNTAIN CARD |━━-->
-<CardComponent
-  [title]="post[1].title"
-  [imageUrl]="post[1].imageUrl"
-  [username]="post[1].username"
-  [content]="post[1].content"
->
-</CardComponent>
-<!-- ------------- -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!--&lt;!&ndash;━━| NEAT TREE CARD |━━&ndash;&gt;-->
+<!--<CardComponent-->
+<!--   [title]="post[0].title"-->
+<!--   [imageUrl]="post[0].imageUrl"-->
+<!--   [username]="post[0].username"-->
+<!--   [content]="post[0].content"-->
+<!--&gt;-->
+<!--</CardComponent>-->
+<!--&lt;!&ndash; -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; &ndash;&gt;-->
+<!--&lt;!&ndash;<hr >&ndash;&gt;-->
 
-<!--━━| MOUNTAIN BIKING CARD |━━-->
-<CardComponent
-  [title]="post[2].title"
-  [imageUrl]="post[2].imageUrl"
-  [username]="post[2].username"
-  [content]="post[2].content"
->
-</CardComponent>
-<!-- ------------- -->
+<!--&lt;!&ndash;━━| SNOWY MOUNTAIN CARD |━━&ndash;&gt;-->
+<!--<CardComponent-->
+<!--  [title]="post[1].title"-->
+<!--  [imageUrl]="post[1].imageUrl"-->
+<!--  [username]="post[1].username"-->
+<!--  [content]="post[1].content"-->
+<!--&gt;-->
+<!--</CardComponent>-->
+<!--&lt;!&ndash; -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; &ndash;&gt;-->
+
+<!--&lt;!&ndash;━━| MOUNTAIN BIKING CARD |━━&ndash;&gt;-->
+<!--<CardComponent-->
+<!--  [title]="post[2].title"-->
+<!--  [imageUrl]="post[2].imageUrl"-->
+<!--  [username]="post[2].username"-->
+<!--  [content]="post[2].content"-->
+<!--&gt;-->
+<!--</CardComponent>-->
+<!--&lt;!&ndash; -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; &ndash;&gt;-->
 
 
 
